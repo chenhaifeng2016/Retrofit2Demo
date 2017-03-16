@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // 只是例子，没有采用注解方案
+        //后续可以添加token处理， cache处理， 请求拦截等功能
 
         tvResponse = (TextView) findViewById(R.id.tvResponse);
         btnRequest = (Button) findViewById(R.id.btnTest);
